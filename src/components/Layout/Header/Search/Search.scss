@@ -1,0 +1,9 @@
+.search {
+    input {
+        &:focus,
+        &:not(:placeholder-shown) {
+            outline: none;
+            width: 200px;
+        }
+    }
+}
