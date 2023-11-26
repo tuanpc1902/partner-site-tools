@@ -11,7 +11,7 @@ function DefaultLayout() {
         <Layout className="">
             <Header />
             <AntdContent className="container mx-auto" style={{ padding: '0 50px' }}>
-                {/* <Breadcrumb /> */}
+                <Breadcrumb />
                 <Layout style={{ padding: '24px 0' }}>
                     <Sider />
                     <Content style={{ padding: '0 24px', minHeight: 280 }}>

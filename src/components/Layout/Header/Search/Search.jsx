@@ -28,7 +28,7 @@ function Search() {
                 onBlur={handleBlur}
                 onChange={handleChange}
             />
-            <button className="search-btn "></button>
+            <button className="search-btn " disabled={isEmpty(searchValue)}></button>
         </form>
     );
 }

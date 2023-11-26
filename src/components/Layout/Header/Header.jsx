@@ -7,7 +7,7 @@ import Auth from './Auth/Auth';
 
 function Header() {
     return (
-        <Layout.Header className="bg-white">
+        <Layout.Header className="bg-white shadow-sm">
             <Row className="container mx-auto flex items-center h-full">
                 <Col className="flex items-center" xxl={4} xl={4} lg={4} md={6} sm={6} xs={8}>
                     <Space>

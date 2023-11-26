@@ -5,5 +5,8 @@
             outline: none;
             width: 200px;
         }
+        &::placeholder {
+            color: #283557;
+        }
     }
 }
